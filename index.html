@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="*logo"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    
+        <div class="songlist">
+            <h1>Best of 2022 - no copyright sounds</h1>
+
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="cover/kesariya.jpg" alt="1" >
+                    <span class="songname">Kesariya </span> 
+                    <span class="songlistplay"> <span class="timestamp">(2:52) <i id="0" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/dance ka bhoot.jpg" alt="2" >
+                    <span class="songname">Dance Ka Bhoot </span> 
+                    <span class="songlistplay"> <span class="timestamp">(3:03) <i id="1" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/arambh.jpeg" alt="3" >
+                    <span class="songname">Arambh Hai Prachand </span> 
+                    <span class="songlistplay"> <span class="timestamp">(4:37) <i id="2" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/deva.jpg" alt="4" >
+                    <span class="songname">Deva Deva </span> 
+                    <span class="songlistplay"> <span class="timestamp">(3:11) <i id="3" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/bing.jpg" alt="5" >
+                    <span class="songname">Bing Bing Boo </span> 
+                    <span class="songlistplay"> <span class="timestamp">(2:39) <i id="4" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/mahabharat.jpeg" alt="6" >
+                    <span class="songname"> Mahabharat Rap  </span> 
+                    <span class="songlistplay"> <span class="timestamp">(3:52) <i id="5" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/ramayan.jpeg" alt="7" >
+                    <span class="songname">Ramayan Revist Rap </span> 
+                    <span class="songlistplay"> <span class="timestamp">(5:59) <i id="6" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/pawansut.jpg" alt="8" >
+                    <span class="songname">Pawansut(Rap) </span> 
+                    <span class="songlistplay"> <span class="timestamp">(4:34) <i id="7" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/shiv.jpeg" alt="9" >
+                    <span class="songname">Shiv Tandav Stotram</span> 
+                    <span class="songlistplay"> <span class="timestamp">(5:52) <i id="8" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover/maan.jpeg" alt="10" >
+                    <span class="songname">Maan Meri Jaan </span> 
+                    <span class="songlistplay"> <span class="timestamp">(4:18) <i id="9" class="fa-regular songitemplay  fa-circle-play"></i></span></span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+           <!-- fontawesome icons -->
+           <i class="fa-solid fa-4x fa-backward-step" id="
+           previous"></i>
+           <i class="fa-regular fa-4x fa-circle-play" id="masterplay"></i>
+           <i class="fa-solid fa-4x fa-forward-step" id="next"></i>
+           
+           
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Kesariya</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/492ea37462.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
